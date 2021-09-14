@@ -1,0 +1,10 @@
+CRITICAL - 2021-09-14 07:41:31 --> Invalid file: welcome_message.php
+#0 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message...')
+#1 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('welcome_message', Array, true)
+#2 E:\kominfo\gorprov\app\Controllers\Home.php(9): view('welcome_message')
+#3 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Home->index()
+#4 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\kominfo\gorprov\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\kominfo\\gorp...')
+#8 {main}

@@ -33,6 +33,9 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'UserController::index');
 
+//admin
+$routes->get('/goradm', 'AdminController::login');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
