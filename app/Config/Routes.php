@@ -33,8 +33,26 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/', 'UserController::index');
 
-//admin
+//admin->auth
 $routes->get('/goradm', 'AdminController::login');
+$routes->get('/goradm/signin', 'AdminAuth::loginAuth');
+$routes->get('/goradm/logout', 'AdminAuth::logout');
+
+//admin->show
+$routes->get('/goradm/dashboard', 'AdminController::dashboard', ['filter' => 'adminGuard']);
+$routes->get('/goradm/pemesanan', 'AdminController::pemesanan', ['filter' => 'adminGuard']);
+$routes->get('/goradm/gor', 'AdminController::gor', ['filter' => 'adminGuard']);
+
+//admin->data manipulation
+$routes->post('/goradm/tambahFasilitas', 'AdminController::tambahFasilitas', ['filter' => 'adminGuard']);
+$routes->post('/goradm/editFasilitas', 'AdminController::editFasilitas', ['filter' => 'adminGuard']);
+$routes->get('/goradm/hapusFasilitas/(:segment)', 'AdminController::hapusFasilitas/$1', ['filter' => 'adminGuard']);
+
+$routes->post('/goradm/editGor', 'AdminController::editGor', ['filter' => 'adminGuard']);
+
+$routes->post('/goradm/tambahTarif', 'AdminController::tambahTarif', ['filter' => 'adminGuard']);
+$routes->post('/goradm/editTarif', 'AdminController::editTarif', ['filter' => 'adminGuard']);
+$routes->get('/goradm/hapusTarif/(:segment)', 'AdminController::hapusTarif/$1', ['filter' => 'adminGuard']);
 
 /*
  * --------------------------------------------------------------------

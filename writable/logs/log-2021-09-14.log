@@ -8,3 +8,25 @@ CRITICAL - 2021-09-14 07:41:31 --> Invalid file: welcome_message.php
 #6 E:\kominfo\gorprov\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\kominfo\\gorp...')
 #8 {main}
+CRITICAL - 2021-09-14 10:10:09 --> Invalid file: main.php
+#0 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main.php')
+#1 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('main', Array, true)
+#2 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 E:\kominfo\gorprov\app\Controllers\AdminController.php(13): view('admin/dashboard')
+#4 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\AdminController->dashboard()
+#5 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\kominfo\gorprov\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\kominfo\\gorp...')
+#9 {main}
+CRITICAL - 2021-09-14 10:11:23 --> Invalid file: main.php
+#0 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('main.php')
+#1 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('main', Array, true)
+#2 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('admin/dashboard', Array, true)
+#3 E:\kominfo\gorprov\app\Controllers\AdminController.php(13): view('admin/dashboard')
+#4 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\AdminController->dashboard()
+#5 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#6 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\kominfo\gorprov\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\kominfo\\gorp...')
+#9 {main}
