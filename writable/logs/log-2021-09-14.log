@@ -8,3 +8,11 @@ CRITICAL - 2021-09-14 07:41:31 --> Invalid file: welcome_message.php
 #6 E:\kominfo\gorprov\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #7 E:\kominfo\gorprov\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('E:\\kominfo\\gorp...')
 #8 {main}
+CRITICAL - 2021-09-14 16:57:17 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\gor-prov-ntt-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\gor-prov-ntt-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}
+CRITICAL - 2021-09-14 16:57:43 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\xampp\htdocs\gor-prov-ntt-main\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\xampp\htdocs\gor-prov-ntt-main\spark(45): require('C:\\xampp\\htdocs...')
+#2 {main}

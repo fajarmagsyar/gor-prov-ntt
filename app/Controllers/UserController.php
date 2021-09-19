@@ -10,4 +10,13 @@ class UserController extends BaseController
 
         return view('users/beranda');
     }
+    public function gor()
+    {
+
+    	return view('users/v_gor');
+    }
+    public function pemesanan()
+    {
+    	return view ('users/pemesanan');
+    }
 }
